@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d76c85-0459-4fb7-86be-9154bd89d390" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hackerrank/util/HackerRankUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank_Solving/com/hackerrank/problem/HackerRankProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank_Solving/com/hackerrank/problem/HackerRankProblem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackerrank/problem/HackerRankProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackerrank/problem/HackerRankProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="HackerRankProblem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hackerrank/problem/HackerRankProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="177" column="49" lean-forward="true" selection-start-line="177" selection-start-column="49" selection-end-line="177" selection-end-column="49" />
+            <state relative-caret-position="411">
+              <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#115#116#0" expanded="true" />
@@ -350,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hackerrank/problem/HackerRankProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="177" column="49" lean-forward="true" selection-start-line="177" selection-start-column="49" selection-end-line="177" selection-end-column="49" />
+        <state relative-caret-position="411">
+          <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#115#116#0" expanded="true" />

@@ -176,18 +176,31 @@ public class HackerRankProblem {
 
     // Complete the minimumDistances function below.
     public static int minimumDistances(int[] a) {
-            int left = a.length % 2 == 0 ? (a.length - 1) / 2: (a.length - 2) / 2;
-            int right = a.length % 2 == 0 ? left + 1 : left + 2;
-            do {
-                if (left < 0 || right >= a.length)
-                    return -1;
-                if (a[left] == a[right]) {
-                    return right - left;
+        /*int left = a.length % 2 == 0 ? (a.length - 1) / 2 : (a.length - 2) / 2;
+        int right = a.length % 2 == 0 ? left + 1 : left + 2;
+        do {
+            if (left < 0 || right >= a.length)
+                return -1;
+            if (a[left] == a[right]) {
+                return right - left;
+            }
+            System.out.println(String.format("Left[%s]=%s | Right[%s]=%s", left, a[left], right, a[right]));
+            left--;
+            right++;
+        } while (true);*/
+
+        int min = -1;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] == a[j]) {
+                    int tmpMin = j - i;
+                    if (tmpMin < min || min == -1)
+                        min = tmpMin;
+                    break;
                 }
-                System.out.println(String.format("Left[%s]=%s | Right[%s]=%s", left, a[left], right, a[right]));
-                left--;
-                right++;
-            } while (true);
+            }
+        }
+        return min;
     }
 
     public static void main(String[] args) throws ParseException {
